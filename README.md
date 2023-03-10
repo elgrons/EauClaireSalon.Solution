@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _Eau Claire Hair Salon_
 
 #### By Eliot Gronstal
 
-#### _{Brief description of application}_
+#### _An MVC web application to help a salon manage employees (stylists) and clients. Independent Project for Week 3 of C# at Epicodus Coding School._
 
 ## Technologies Used
 
@@ -12,11 +12,20 @@
 * _MVC_
 * _SQL Workbench_
 * _Entity Framework_
-* _add here_
+* _HTML_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+The owner of a hair salon called Eau Claire's Salon contracted out the creation of an MVC web application to help manage  employees (stylists) and clients. The owner can add a list of stylists working at the salon, and for each stylist, add clients who see that stylist. The stylists have specific specialties, so each client can only see a single stylist.
+
+__App Features:__
+* _The owner can see a list of all stylists._
+* _The owner can select a stylist, see their details, and see a list of all clients that belong to that stylist._
+* _The owner can add new stylists to the system when they are hired._
+* _The owner can add new clients to a specific stylist. It is not possible to add a client if no stylists have been added._
+
+__Project Schema:__
+[project_schema]<imgsrc=/Users/eliotgronstal/Desktop/Epicodus/EauClaireSalon.Solution/HairSalon/wwwroot/images/HairSalon_Schema.png>
 
 ## Setup/Installation Requirements
 
