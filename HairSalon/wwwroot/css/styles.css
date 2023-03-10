@@ -1,9 +1,17 @@
 div#footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position:fixed;
   bottom:0px;
   left:0px;
   width:100%;
-  color:#CCC;
-  background:#333;
+  color:#A7950D;
+  background:#227AAE;
   padding:8px;
 };
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin: auto;
+  border: 15px;
+}
