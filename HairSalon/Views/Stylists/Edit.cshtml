@@ -1,0 +1,35 @@
+@{
+  Layout = "_Layout";
+}
+
+@model HairSalon.Models.Stylist
+
+<h2>Edit</h2>
+
+<h4>Edit Stylist Details: @Html.DisplayFor(model => model.StylistName)</h4>
+<br><br>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.StylistId)
+
+  @Html.LabelFor(model => model.StylistName)
+  @Html.EditorFor(model => model.StylistName)
+
+  <br><br>
+
+  @Html.LabelFor(model => model.Speciality)
+  @Html.EditorFor(model => model.Speciality)
+
+  <br><br>
+
+  @Html.LabelFor(model => model.ClientAppt, "Client Appointment:  ")
+  @Html.TextBoxFor(model => model.ClientAppt, new { @class = "form-control", type = "date", style = "color: pink; background: blue; width:auto"})
+
+  <br><br>
+
+  <input type="submit" value="Save" />
+}
+<p>@Html.ActionLink("Back to list of Stylists", "Index")</p>
+
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
