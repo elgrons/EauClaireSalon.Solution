@@ -2,7 +2,7 @@
 
 #### By Eliot Gronstal
 
-#### _An MVC web application to help a salon manage employees (stylists) and clients. Independent Project for Week 3 of C# at Epicodus Coding School._
+#### _A MVC web application to help a salon manage employees (stylists) and clients. Independent Project for Week 3 of C# at Epicodus Coding School._
 
 ## Technologies Used
 
