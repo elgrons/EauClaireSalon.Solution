@@ -11,6 +11,6 @@ namespace HairSalon.Models
     public DateTime ApptDate { get; set; }
 
     public int StylistId { get; set; }
-    public Stylist Styist { get; set; }
+    public Stylist Stylist { get; set; }
   }
 }
