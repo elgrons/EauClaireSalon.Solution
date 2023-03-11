@@ -4,25 +4,25 @@
 
 @model HairSalon.Models.Stylist
 
-<h4>Add a Salon Stylist</h4>
+<h1>Add a Salon Stylist</h1>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.StylistName, "Stylist Name:  ")
+  @Html.LabelFor(model => model.StylistName, "Stylist Name:")
   @Html.TextBoxFor(model => model.StylistName)
 
   <br><br>
 
-  @Html.LabelFor(model => model.Speciality, "Stylist Speciality:  ")
+  @Html.LabelFor(model => model.Speciality, "Stylist Speciality:")
   @Html.TextBoxFor(model => model.Speciality)
 
   <br><br>
 
-  @Html.LabelFor(model => model.ClientAppt, "Client Appointment:  ")
-  @Html.TextBoxFor(model => model.ClientAppt, new { @class = "form-control", type = "date", style = "color: blue; background: pink; width:auto"})
+  @Html.LabelFor(model => model.ClientAppt, "Client Appointment:")
+  @Html.TextBoxFor(model => model.ClientAppt, new { @class = "form-control", type = "date", style = "color: blue; background: pink; width: auto; margin: auto; border: auto"})
 
   <br><br>
 
-  <input type="submit" value="Add new stylist" style = "color:rgb(255, 0, 225);"/>
+  <input type="submit" value="Add new stylist" style = "color:#088B8F;"/>
 
   <br><br>
 }
